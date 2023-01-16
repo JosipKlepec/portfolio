@@ -1216,7 +1216,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
 
-@media (min-width: 290px) {
+@media (min-width: 280px) {
 
   /**
    * client
