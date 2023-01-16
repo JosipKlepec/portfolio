@@ -1216,7 +1216,29 @@ textarea.form-input::-webkit-resizer { display: none; }
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
 
+@media (min-width: 440px) {
 
+  /**
+   * client
+   */
+
+  .clients-item { min-width: calc(33.33% - 10px); }
+
+  .modal-avatar-box img {
+    border-radius: 20px;
+     width: 80px; }
+
+     .avatar-box img { 
+      border-radius: 20px;
+      width: 150px; }
+  /**
+   * #PORTFOLIO, BLOG 
+   */
+
+  .project-img,
+  .blog-banner-box { height: auto; }
+
+}
 
 /*-----------------------------------*\
   #RESPONSIVE
