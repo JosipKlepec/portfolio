@@ -1,11 +1,4 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
 
-
-/**
- * copyright 2022 @codewithsadee
- */
 
 
 
@@ -174,6 +167,7 @@ article {
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
+
 
 .separator {
   width: 100%;
@@ -1241,8 +1235,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .clients-item { min-width: calc(33.33% - 10px); }
 
+  .modal-avatar-box img {
+    border-radius: 20px;
+     width: 80px; }
 
-
+     .avatar-box img { 
+      border-radius: 20px;
+      width: 150px; }
   /**
    * #PORTFOLIO, BLOG 
    */
@@ -1591,7 +1590,9 @@ textarea.form-input::-webkit-resizer { display: none; }
     max-width: 680px;
   }
 
-  .modal-avatar-box img { width: 80px; }
+  .modal-avatar-box img {
+    border-radius: 20px;
+     width: 80px; }
 
 
 
@@ -1835,7 +1836,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px; }
+  .avatar-box img { 
+    border-radius: 20px;
+    width: 150px; }
 
   .info-content .name {
     white-space: nowrap;
