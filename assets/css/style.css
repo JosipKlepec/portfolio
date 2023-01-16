@@ -1218,14 +1218,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-@media only screen and (max-width: 440px) {
-  
-
-     .avatar-box img { 
-      border-radius: 20px;
-      width: 150px; }
-}
-
 /*-----------------------------------*\
   #RESPONSIVE
 \*-----------------------------------*/
